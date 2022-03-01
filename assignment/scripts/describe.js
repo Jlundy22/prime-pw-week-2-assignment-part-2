@@ -130,12 +130,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX- colorOne should equal 'blue' and colorTwo should equal 'red' as the instrctions state.
+//Should be let colorOne = 'blue' and let colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX- colorTwo should also equal 'purple' in this if statement.
+  // should also have colorTwo = 'purple' below colorOne = 'purple'.
 }
 */
 
