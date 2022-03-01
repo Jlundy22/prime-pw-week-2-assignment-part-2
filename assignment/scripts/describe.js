@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create  2 variables. One named secret that has no value yet. Another named code and set it equal to 123.
+// We create an if statement that checks if the variable code equals 123. If it does it makes the variable secret equal 'super' along with setting the varible code equal to the code multiplied by 2.
+// We create another if statment to check is the variable code is greater than 250. If true is sets the variable code equal to 'duper'. Lastly we log secret.
+// Our code is 123 so our secret now equals 'super' and our code now equals 246. we console.log 'super'.
 
 //CODE
 /*
