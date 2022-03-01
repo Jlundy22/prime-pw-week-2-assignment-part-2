@@ -150,7 +150,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX- the current if statment is checking if the temp is greater than 39 or time is greater than or equal to 4, this means only one would need to be true to log the statment. Should be checking if both are true statments.
+//In the parentheis of the if statment is should be like this - (temp > 39 && time >=4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
