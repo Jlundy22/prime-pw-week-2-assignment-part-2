@@ -164,6 +164,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+//FIX - This current if staement would let anyone 21 or under enter. We need it to let everyone 21 and over to enter.
+// the if stament should be like this -- if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
