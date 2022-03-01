@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a variable named number and set it equal to the number 1.
-// We increment the variable by 1. number now equals 2.
-// We create an if statement to check if the number variable is greater than or equal to 2.
-// Since the number variable does equal 2 we console.log 'yes'.
+// We create a variable named name and set it equal to 'Dane'
+// We create an if / else statement to check if the name variable equals 'Mary'.
+// If the name equals Mary the console.log will say 'Hi, Mary!' otherwise it will console.log 'How do you do?'.
+// The name variable does not equal 'Mary' so we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a variable named name and set it equal to 'Dane'
-// We create an if / else statement to check if the name variable equals 'Mary'.
-// If the name equals Mary the console.log will say 'Hi, Mary!' otherwise it will console.log 'How do you do?'.
-// The name variable does not equal 'Mary' so we console.log 'How do you do?'.
+// We create  2 variables. One named secret that has no value yet. Another named code and set it equal to 123.
+// We create an if statement that checks if the variable code equals 123. If it does it makes the variable secret equal 'super' along with setting the varible code equal to the code multiplied by 2.
+// We create another if statment to check is the variable code is greater than 250. If true is sets the variable code equal to 'duper'. Lastly we log secret.
+// Our code is 123 so our secret now equals 'super' and our code now equals 246. we console.log 'super'.
+
+
 
 //CODE
 /*
@@ -70,11 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create  2 variables. One named secret that has no value yet. Another named code and set it equal to 123.
-// We create an if statement that checks if the variable code equals 123. If it does it makes the variable secret equal 'super' along with setting the varible code equal to the code multiplied by 2.
-// We create another if statment to check is the variable code is greater than 250. If true is sets the variable code equal to 'duper'. Lastly we log secret.
-// Our code is 123 so our secret now equals 'super' and our code now equals 246. we console.log 'super'.
-
+// We create 3 variables. isStudent and set is equal to true, age is set equal to 34 , and zip is set equal to 55407.
+// We create an if statment. First we check is the variable isStudent equals true and if zip is greater than 80000. If true we console.log 'You are a student on the West Coast!'.
+//If the first statment evaluated as false we will then check is the variable isStudent equals false or age equals less than 30. If either statment is true we console.log 'What are your hobbies?'.
+// if the top 2 statements are false we check is the variable isStudent equals true. If the statment is true we console.log 'Welcome to prime!'.
+// If all three if stements are false we console.log 'How about that weather?'.
+//With are current varibles we have the code block in the 3rd statment would run since the variable isStudent equals true and the statments above are false. We would get 'Welcome to prime!'.
 //CODE
 /*
 let isStudent = true;
